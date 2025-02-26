@@ -206,7 +206,7 @@ function GlobalProvider({ children }) {
 
 // SOCKET.IO  //NOTIFICATION
 useEffect(() => {
-  const socket = io("https://backendnew-5nc9.onrender.com", {
+  const socket = io("https://cleanease-backendnew.onrender.com", {
     transports: ["websocket", "polling"],
     withCredentials: true,
   });
